@@ -14,6 +14,7 @@ final class ActionMenu: NSMenu {
     
     private static let standardActions: [ApplicationActionable.Type] = [
         RevealInFinderAction.self,
+        DeleteDocumentsAction.self,
         CopyToPasteboardAction.self,
         OpenInTerminalAction.self,
         UninstallAction.self
